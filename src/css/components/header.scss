@@ -1,0 +1,118 @@
+.header_lesson {
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    height: 60px;
+    position: relative;
+    z-index: 1;
+
+    .item-header-first {
+      .back-mycourse {
+        float: left;
+        background: #50ad4e;
+        color: #fff;
+        line-height: 0;
+        position: relative;
+        display: block;
+        width: 60px;
+        height: 60px;
+        .icon-back-mycourse{
+          content: "";
+          background-image: url(./../../images/arr-back-header.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      .logo {
+          width: 130px;
+          margin-right: 0;
+          padding-left: 10px;
+          padding-right: 0;
+          position: relative;
+          padding-top: 12px;
+          float: left;
+          padding-bottom: .25rem;
+          font-size: 1.25rem;
+          line-height: inherit;
+          img {
+              height: 40px;
+          }
+      }
+    }
+
+    .item-header-second {
+        float: left;
+        width: calc(100% - 390px);
+        padding: 0 15px;
+        display: table;
+        height: 60px;
+
+        h4 {
+          font-size: 20px;
+          display: table-cell;
+          vertical-align: middle;
+        }
+    }
+    .account {
+      float: right;
+      margin-right: 10px;
+      margin-top: 7px;
+      text-align: right;
+      .dropdown-toggle {
+          padding: 0;
+          display: inline-block;
+
+          &::after {
+              display: inline-block;
+              width: 0;
+              height: 0;
+              margin-left: .3em;
+              vertical-align: middle;
+              content: "";
+              border-top: .3em solid;
+              border-right: .3em solid transparent;
+              border-left: .3em solid transparent;
+              position: absolute;
+              right: -3px;
+              bottom: 15px;
+              color: #4a4a4a;
+          }
+
+          .sub-wrap {
+              display: inline-block;
+              padding-left: 37px;
+
+              img {
+                  border-radius: 50%;
+                  width: 37px;
+                  height: 37px;
+                  float: left;
+                  margin-right: 10px;
+                  display: inline-block;
+              }
+              .text {
+                  float: right;
+                  .user {
+                      display: inline-block;
+                      font-size: 14px;
+                      color: #4a4a4a;
+                      line-height: 20px;
+                  }
+                  .title {
+                      display: block;
+                      color: #212121;
+                      font-size: 12px!important;
+                      padding-right: 15px;
+                      margin-top: 0;
+                  }
+              }
+          }
+      }
+    }
+
+}

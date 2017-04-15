@@ -1,4 +1,10 @@
 {
+  "description": "Kyna learning page with react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonbuiGFD/kynaLearningPage.git"
+  },
+  "main": "src/index.js",
   "name": "kyna-learning-page",
   "version": "1.0.0",
   "private": true,
@@ -22,11 +28,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "description": "ES2015 boilerplate app with React, redux, react-router and webpack",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sonbuiGFD/kynaLearningPage.git"
-  },
-  "main": "src/index.js"
+  }
 }
